@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7877628a-0c85-47c3-a9ec-14894ce1f79d" name="Changes" comment="" />
+    <list default="true" id="7877628a-0c85-47c3-a9ec-14894ce1f79d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/patterns/creational.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ressources/nonConstrutableChange.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ressources/tournamentWinner.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ressources/transposeMatrix.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NonConstructibaleChange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TransposeMatrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo-expert.iml" beforeDir="false" afterPath="$PROJECT_DIR$/algo-expert.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TournamentWinner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TournamentWinner.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,7 +43,11 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NonConstructibaleChange.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TournamentWinner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TransposeMatrix.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/felixknopp/Desktop/workspace/algo-expert&quot;,
@@ -42,11 +56,14 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.TransposeMatrix">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="algo-expert" />
@@ -54,8 +71,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NonConstructibaleChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NonConstructibaleChange" />
+      <module name="algo-expert" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TournamentWinner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TournamentWinner" />
+      <module name="algo-expert" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TransposeMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TransposeMatrix" />
+      <module name="algo-expert" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TransposeMatrix" />
+        <item itemvalue="Application.NonConstructibaleChange" />
+        <item itemvalue="Application.TournamentWinner" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -84,6 +125,10 @@
       <workItem from="1722235025639" duration="605000" />
       <workItem from="1722241357780" duration="23000" />
       <workItem from="1727862557037" duration="356000" />
+      <workItem from="1727875850193" duration="388000" />
+      <workItem from="1727970282246" duration="4867000" />
+      <workItem from="1728206515754" duration="4315000" />
+      <workItem from="1728300223401" duration="1177000" />
     </task>
     <servers />
   </component>
